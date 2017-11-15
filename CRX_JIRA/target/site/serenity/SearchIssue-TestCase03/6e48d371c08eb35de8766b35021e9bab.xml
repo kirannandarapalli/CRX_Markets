@@ -1,0 +1,48 @@
+<acceptance-test-run title="User should be able to search issue" name="userShouldBeAbleToSearchIssue" steps="7" successful="7" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="90141" timestamp="2017-11-14T20:49:34.961+01:00" session-id="1b0375f1-e74f-40db-927d-164cb7d425fe" test-source="JUnit">
+  <user-story id="testcases.SearchIssue" name="Search issue" path="testcases"/>
+  <tags>
+    <tag name="Search issue" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="24594">
+    <screenshots>
+      <screenshot image="761a068239b0630c895894ecaca6e0e9.png"/>
+    </screenshots>
+    <description>User Opened JIRA Login Page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3583">
+    <screenshots>
+      <screenshot image="e2bb315c76a5d66d7b3d4898f0d79fb9.png"/>
+    </screenshots>
+    <description>User entered login details</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14644">
+    <screenshots>
+      <screenshot image="b2a7a36a7c0dd29e881d75274722cfd3.png"/>
+    </screenshots>
+    <description>Performed action: Continue</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="644">
+    <screenshots>
+      <screenshot image="7523daab7e689adb5802993f2251fac1.png"/>
+    </screenshots>
+    <description>User entered login details</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="16043">
+    <screenshots>
+      <screenshot image="e345b6c53e2bd1aa2de11894c8ec733d.png"/>
+    </screenshots>
+    <description>Performed action: Login</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="936">
+    <screenshots>
+      <screenshot image="1e4b950f7d8a6d75920d6d3cf8a17c40.png"/>
+    </screenshots>
+    <description>Should be on page: System dashboard - Jira</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="12096">
+    <screenshots>
+      <screenshot image="ebf5a1f5b51fabd6ccf87f40163c0644.png"/>
+    </screenshots>
+    <description>Search issue: New-7</description>
+  </test-step>
+</acceptance-test-run>

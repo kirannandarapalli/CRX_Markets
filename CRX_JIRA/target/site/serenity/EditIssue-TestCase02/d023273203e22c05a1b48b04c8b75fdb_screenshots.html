@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">CRX JIRA Functionality Task</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="6abe85f4eab9c176e036f00e0b1fcc74.html">Edit Issue</a>
+                > <a
+                    href="d023273203e22c05a1b48b04c8b75fdb.html">User should be able to edit issue </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-11-2017 20:38</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Edit Issue</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">User should be able to edit issue
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_ae0c996462dd0cd70064849c3ca62587.png" title="User Opened JIRA Login Page" width="960"/>
+                <img src="scaled_afcb174bb0482f605d94395243c705ed.png" title="User entered login details" width="960"/>
+                <img src="scaled_b2a7a36a7c0dd29e881d75274722cfd3.png" title="Performed action: Continue" width="960"/>
+                <img src="scaled_7523daab7e689adb5802993f2251fac1.png" title="User entered login details" width="960"/>
+                <img src="scaled_99e9cf9039889b3d7ff52335270d3852.png" title="Performed action: Login" width="960"/>
+                <img src="scaled_b25acbd186916356b645191bb281ea8c.png" title="Should be on page: System dashboard - Jira" width="960"/>
+                <img src="scaled_35f9995be6bfcd2732d25ee35c792214.png" title="Should be on page: System dashboard - Jira" width="960"/>
+                <img src="scaled_1ad26bdd6b5079c94a23795c5b278513.png" title="Performed action: issuesTab" width="960"/>
+                <img src="scaled_1ca491079d95ee1a8c1e3eabcafa88e0.png" title="Performed action: selectMyOpenIssues" width="960"/>
+                <img src="scaled_d590eac76c3f47d7c46473307402fd90.png" title="Performed action: selectMyOpenIssues" width="960"/>
+                <img src="d590eac76c3f47d7c46473307402fd90.png" title="Should be on page: [My open issues] Issue navigator - Jira" width="960"/>
+                <img src="scaled_16409857976102a37825b1879dea5248.png" title="Performed action: openIssue" width="960"/>
+                <img src="scaled_4b83c0742b8caf0653e0fd04e5ac5579.png" title="Should be on page: [NEW-7] Automated Summary from serinity test - Jira" width="960"/>
+                <img src="scaled_418731943fe0202fe0359ab942bc99b9.png" title="Performed action: editIssue" width="960"/>
+                <img src="scaled_9f6f3d204bf90c3f92682525f830b8dd.png" title="User updated issue details" width="960"/>
+                <img src="scaled_c0619974abde8a08ebf9c5440813b101.png" title="User updated issue details" width="960"/>
+                <img src="scaled_ef4c9e29c6d8668165256e9dae8ee612.png" title="Performed action: editSubmit: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.1.42</span>
+</div>
+</body>
+</html>

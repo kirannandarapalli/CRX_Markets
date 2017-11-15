@@ -1,0 +1,73 @@
+<acceptance-test-run title="User should be able to create issue" name="userShouldBeAbleToCreateIssue" steps="11" successful="11" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="85445" timestamp="2017-11-14T20:54:17.292+01:00" session-id="3bf938c3-0806-4a57-be97-bf288183c053" test-source="JUnit">
+  <user-story id="testcases.CreateIssue" name="Create issue" path="testcases"/>
+  <tags>
+    <tag name="Create issue" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="28629">
+    <screenshots>
+      <screenshot image="761a068239b0630c895894ecaca6e0e9.png"/>
+    </screenshots>
+    <description>User Opened JIRA Login Page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1993">
+    <screenshots>
+      <screenshot image="e2bb315c76a5d66d7b3d4898f0d79fb9.png"/>
+    </screenshots>
+    <description>User entered login details</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14061">
+    <screenshots>
+      <screenshot image="b2a7a36a7c0dd29e881d75274722cfd3.png"/>
+    </screenshots>
+    <description>Performed action: Continue</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="498">
+    <screenshots>
+      <screenshot image="7523daab7e689adb5802993f2251fac1.png"/>
+    </screenshots>
+    <description>User entered login details</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14777">
+    <screenshots>
+      <screenshot image="1c3eb636ba85ca82e47d9d81971f8a74.png"/>
+    </screenshots>
+    <description>Performed action: Login</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="790">
+    <screenshots>
+      <screenshot image="27db8f793a37270a9ac669ce62848e2b.png"/>
+    </screenshots>
+    <description>Should be on page: System dashboard - Jira</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="907">
+    <screenshots>
+      <screenshot image="6c7dbbcbafffdb589e65e31e6d5f64e8.png"/>
+    </screenshots>
+    <description>Performed action: create</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="690">
+    <screenshots>
+      <screenshot image="d70340db1dc20ccbc44b29409a2140e5.png"/>
+      <screenshot image="7cbf103b69e071d1b34433725d52c5b1.png"/>
+    </screenshots>
+    <description>Should be on page: Create issue - Jira</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="10436">
+    <screenshots>
+      <screenshot image="fc5d4e34e5ce77aed9cd4252f9e5a83f.png"/>
+    </screenshots>
+    <description>User entered issue details</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1574">
+    <screenshots>
+      <screenshot image="25e4d6ed24ab0635e6167e6a2ff92475.png"/>
+    </screenshots>
+    <description>Performed action: createSubmit</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="786">
+    <screenshots>
+      <screenshot image="3ec836b585f11b7ad086311502bb2847.png"/>
+    </screenshots>
+    <description>Verify issue created: newIssueCreated</description>
+  </test-step>
+</acceptance-test-run>

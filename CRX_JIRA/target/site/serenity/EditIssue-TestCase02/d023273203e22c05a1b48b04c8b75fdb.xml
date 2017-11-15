@@ -1,0 +1,93 @@
+<acceptance-test-run title="User should be able to edit issue" name="userShouldBeAbleToEditIssue" steps="14" successful="14" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="90610" timestamp="2017-11-14T20:36:44.803+01:00" session-id="b1806e42-04c1-42ee-b3e9-3ef045ebb504" test-source="JUnit">
+  <user-story id="testcases.EditIssue" name="Edit issue" path="testcases"/>
+  <tags>
+    <tag name="Edit issue" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="21823">
+    <screenshots>
+      <screenshot image="ae0c996462dd0cd70064849c3ca62587.png"/>
+    </screenshots>
+    <description>User Opened JIRA Login Page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2430">
+    <screenshots>
+      <screenshot image="afcb174bb0482f605d94395243c705ed.png"/>
+    </screenshots>
+    <description>User entered login details</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="15148">
+    <screenshots>
+      <screenshot image="b2a7a36a7c0dd29e881d75274722cfd3.png"/>
+    </screenshots>
+    <description>Performed action: Continue</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="656">
+    <screenshots>
+      <screenshot image="7523daab7e689adb5802993f2251fac1.png"/>
+    </screenshots>
+    <description>User entered login details</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="15151">
+    <screenshots>
+      <screenshot image="99e9cf9039889b3d7ff52335270d3852.png"/>
+    </screenshots>
+    <description>Performed action: Login</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="997">
+    <screenshots>
+      <screenshot image="b25acbd186916356b645191bb281ea8c.png"/>
+      <screenshot image="35f9995be6bfcd2732d25ee35c792214.png"/>
+    </screenshots>
+    <description>Should be on page: System dashboard - Jira</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1008">
+    <screenshots>
+      <screenshot image="1ad26bdd6b5079c94a23795c5b278513.png"/>
+    </screenshots>
+    <description>Performed action: issuesTab</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6117">
+    <screenshots>
+      <screenshot image="1ca491079d95ee1a8c1e3eabcafa88e0.png"/>
+      <screenshot image="d590eac76c3f47d7c46473307402fd90.png"/>
+    </screenshots>
+    <description>Performed action: selectMyOpenIssues</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="820">
+    <screenshots>
+      <screenshot image="d590eac76c3f47d7c46473307402fd90.png"/>
+    </screenshots>
+    <description>Should be on page: [My open issues] Issue navigator - Jira</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1802">
+    <screenshots>
+      <screenshot image="16409857976102a37825b1879dea5248.png"/>
+    </screenshots>
+    <description>Performed action: openIssue</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="598">
+    <screenshots>
+      <screenshot image="4b83c0742b8caf0653e0fd04e5ac5579.png"/>
+    </screenshots>
+    <description>Should be on page: [NEW-7] Automated Summary from serinity test - Jira</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1289">
+    <screenshots>
+      <screenshot image="418731943fe0202fe0359ab942bc99b9.png"/>
+    </screenshots>
+    <description>Performed action: editIssue</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="4145">
+    <screenshots>
+      <screenshot image="9f6f3d204bf90c3f92682525f830b8dd.png"/>
+      <screenshot image="c0619974abde8a08ebf9c5440813b101.png"/>
+    </screenshots>
+    <description>User updated issue details</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1317">
+    <screenshots>
+      <screenshot image="ef4c9e29c6d8668165256e9dae8ee612.png"/>
+    </screenshots>
+    <description>Performed action: editSubmit</description>
+  </test-step>
+</acceptance-test-run>
