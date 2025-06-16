@@ -32,13 +32,13 @@ public class EditIssue {
 		jiraUser.isOnHomePage();
 		
 		//And
-		jiraUser.enterUserDetails(UserDetails.emailid, "kiran1ly4friends@gmail.com");
+		jiraUser.enterUserDetails(UserDetails.emailid, "kiran1@gmail.com");
 		
 		//And
 		jiraUser.performedAction(ActionType.Continue);
 		
 		//And
-		jiraUser.enterUserDetails(UserDetails.password, "kiran476");
+		jiraUser.enterUserDetails(UserDetails.password, "kiran444");
 		
 		//And
 		jiraUser.performedAction(ActionType.Login);
